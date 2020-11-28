@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.entry{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: VT323;
+    src: url('../fonts/VT323-Regular.ttf');
+}
+li{
+    list-style: none;
+    float: left;
+    font-family: Tabular;
+    font-weight: 700;
+    font-size: 150px;
+    color: #313539;
+    position: relative;
+    left: 490px;
+    bottom: 150px;
+    margin-right: 10px;
+}
+.cont{
+    background-color: whitesmoke;
+    opacity: 0.3;
+    width: 600px;
+    position: relative;
+    left: 410px;
+    top: 100px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px 25px 25px 25px ;
+    -webkit-box-shadow: -2px 4px 20px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 20px 10px rgba(0,0,0,0.75);
+    box-shadow: -2px 4px 20px 10px rgba(0,0,0,0.75);
+}
+.made-by{
+    position: relative;
+    color: #313539;
+    left:35%;
+    top:250px;
+    font-size: x-small;
+}
+
