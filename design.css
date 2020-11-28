@@ -1,0 +1,130 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url()
+}
+.top-img{
+    position: relative;
+    bottom: 500px;
+    right: 300px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.bottom-img{
+    position: relative;
+    left: 700px;
+    bottom: 700px;
+}
+.container{
+    padding:0;
+    border: 0;
+    margin:0;
+}
+.box{
+width: 350px;
+height: 400px;
+position: relative;
+bottom: 1800px;
+left: 500px;
+border-radius: 25px;
+-webkit-box-shadow: 0px 3px 58px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 58px -19px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 58px -19px rgba(0,0,0,0.75);
+background-color:	#FFFFFF;
+}
+.pat-cat{
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
+}
+.img-crop img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+
+}
+.img-crop {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3.5px solid  white;  
+    position: relative;
+    left:125px;
+    bottom: 50px;
+}
+@font-face {
+    font-family: Kumbh Sans;
+    src: url(fonts/KumbhSans-Bold.ttf);
+  }
+.name{
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    bottom: 45px;
+}
+.age{
+    font-family: Kumbh Sans;
+    opacity: 0.5;
+    font-size: 20px;
+    position: relative;
+    left: 230px;
+    bottom: 85px;
+}
+.location{
+    font-family: Kumbh Sans;
+    opacity: 0.5;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    left:140px;
+}
+.line{
+    border: 1px solid black;
+    position: relative;
+    bottom: 100px;
+    background-color: black;
+    height: 0.3;
+    opacity: 0.2;
+}
+ul{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.sub{
+    float: left;
+    border: 0;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    position: relative;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 20px;
+    bottom: 100px;
+    left: 20px;
+    
+}
+.info2{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.sub2{
+    float: left;
+    border: 0;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    position: relative;
+    font-family: Kumbh Sans;
+    opacity: .5;
+    font-size: 15px;
+    bottom: 150px;
+    left: 5px;
+    
+}
